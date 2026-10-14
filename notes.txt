@@ -1,0 +1,36 @@
+colors
+--clr-accent: hsl(47,88%, 63%);
+--clr-surface: hsl(0,0,0);
+--clr-heading: hsl(0, 0, 7%);
+--clr-text: hsl(0, 0%, 42%);
+
+typography
+Text preset 1:
+ - 24px font size
+ - font-weight extra bold
+ - 1.5 line-height
+
+
+Text preset 2:
+ - 16px font size 
+ -1.5 line height
+
+
+Text preset 3 
+- 14px font size
+ - font-weight medium
+- 1.5 line height
+-  
+
+
+Text preset 3 
+- 14px font size
+- font-weight extra bold
+- 1.5 line height
+ 
+
+Spacing
+300 - 24px
+150 - 12px
+100 - 8px
+50 - 4px
