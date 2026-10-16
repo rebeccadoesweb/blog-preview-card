@@ -28,7 +28,6 @@ Users should be able to:
   
   <img src="./plan-blog-preview-card.png" alt="project structure plan">
 
-## Video Preview
 
 
 ## Author
