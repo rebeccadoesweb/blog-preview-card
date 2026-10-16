@@ -29,7 +29,7 @@ Users should be able to:
   <img src="./plan-blog-preview-card.png" alt="project structure plan">
 
 ## Video Preview
-<video src="./preview-card.mp4" controls></video>
+
 
 ## Author
 - Frontend Mentor - [@rebeccadoesweb](https://www.frontendmentor.io/profile/rebeccadoesweb)

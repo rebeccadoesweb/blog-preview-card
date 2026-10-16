@@ -16,7 +16,10 @@
 <body>
 
   <main class="card">
-    <img class="blog-img" src="./assets/images/illustration-article.svg" width="336" height="201" alt="">
+    <figure>
+      <img class="blog-img" src="./assets/images/illustration-article.svg" width="336" height="201" alt="">
+      <figcaption class="visually-hidden"> black and yellow illustration</figcaption>
+    </figure>
     <article class="blog-content">
       <a href="#" class="blog-category">Learning</a>
       <time datetime="2023-12-21">Published 21 Dec 2023</time>
@@ -24,11 +27,15 @@
       <p class="blog-description">These languages are the backbone of every website, defining structure, content, and
         presentation.</p>
     </article>
-    <div class="author">
-      <img class="author-img" src="./assets/images/image-avatar.webp" width="64" height="65"
-        alt="headshot of Greg Hooper">
-      <h2 class="author-name"> Greg Hooper</h2>
-    </div>
+    <section class="author" aria-labelledby="author-title">
+      <h2 class="visually-hidden" id="author-title">Blog preview card author</h2>
+      <figure>
+        <img class="author-img" src="./assets/images/image-avatar.webp" width="64" height="65"
+          alt="headshot of Greg Hooper">
+        <figcaption class="visually-hidden">A portrait of Greg Hooper</figcaption>
+      </figure>
+      <p class="author-name"> Greg Hooper</p>
+    </section>
   </main>
 
   <footer class="attribution">

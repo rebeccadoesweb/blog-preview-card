@@ -163,14 +163,12 @@ body {
 
 .card {
   background-color: var(--clr-surface);
-  max-width: 20.4375rem;
+  max-width: 23.75rem;
   padding: var(--spacing-300);
   border-radius: var(--card-radius);
   transition: color 200ms ease-in-out;
-
-  &:is(:hover, :focus-within) {
-    box-shadow: var(--card-drop-shadow);
-  }
+  outline: 1px solid var(--clr-heading);
+  box-shadow: .5rem 0.5rem 0 0 var(--clr-heading);
 }
 
 .card > *:not(:last-child) {
@@ -185,24 +183,34 @@ body {
 
 .blog-title {
   color: var(--clr-heading);
-  font-size: var(--fs-heading);
+  font-size: 1.25rem;
   font-weight: var(--fw-extrabold);
   transition: color 200ms ease-in-out;
 
   &:is(:hover, :focus) {
     color: var(--clr-accent);
   }
+
+  @medaia (width >=50em) {
+    font-size: var(--fs-heading);
+  }
 }
 
 .blog-description {
   font-size: var(--fs-text-sm);
   font-weight: var(--fw-medium);
+
+
+  @media (width >=50em) {
+    font-size: var(--fs-text);
+  }
 }
 
 [datetime="2023-12-21"] {
   font-size: var(--fs-text-xs);
   font-weight: var(--fw-medium);
   color: var(--clr-heading);
+
 }
 
 .author {
