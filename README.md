@@ -11,8 +11,8 @@ Users should be able to:
 
 ### Live Demo
 
-- Solution URL: [Frontend Mentor]()
-- Live Site URL: [GitHub Pages]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/blog-preview-card-using-html-and-css-AzZg8WLo3Z)
+- Live Site URL: [GitHub Pages](https://rebeccadoesweb.github.io/blog-preview-card/)
 
 
 ## Built with
@@ -22,12 +22,15 @@ Users should be able to:
   - Flexbox
   - CSS Grid
 
-### What I learned
+## What I learned
 
 - Plan project structure using [tldraw](https://www.tldraw.com/) first before jumping into the code. 
   
   <img src="./plan-blog-preview-card.png" alt="project structure plan">
 
+
+## Screenshot
+![desktop screenshot](./blog-preview-card-screenshot.png)
 
 
 ## Author
