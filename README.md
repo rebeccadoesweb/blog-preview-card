@@ -28,11 +28,6 @@ Users should be able to:
   
   <img src="./plan-blog-preview-card.png" alt="project structure plan">
 
-## Video Preview
-
-https://github.com/user-attachments/assets/0da8bda4-b6fe-49d5-b1a0-25d024670d9d
-
-
 
 ## Author
 - Frontend Mentor - [@rebeccadoesweb](https://www.frontendmentor.io/profile/rebeccadoesweb)
